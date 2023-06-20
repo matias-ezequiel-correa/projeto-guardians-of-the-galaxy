@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Galactic';
+    src: url(/fonts/GALACTIC-VANGUARDIAN-NCV.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1980px;
+    margin: 0 auto;
+    background: url(../imagens/space-background.jpg);
+    background-size: cover;
+    color: #333333;
+}
+
+body.modo-escuro {
+    background: url(../imagens/space-background-2.jpg);
+    background-size: cover;
+    color: rgb(34, 193, 195);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px;
+    box-shadow: 0 1px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+    transition: 0.2s ease-in-out;
+    margin: 0 100px;
+}
+
+header .titulo .logo-guardians {
+    width: 350px;
+    transition: 0.2s ease-in-out;
+}
+
+header .imagem-botao {
+    width: 50px;
+    transition: 0.2s ease-in-out;
+    margin: 0 100px;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+.search-bar input {
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid;
+    background-color: #212121a5;
+    border-radius: 15px;
+    border-color: #212121;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    width: 65%;
+}
+
+.modo-escuro .search-bar input {
+    border: 3px solid;
+    background-color: rgba(197, 239, 240, 0.85);
+    border-radius: 15px;
+    border-color: rgb(34, 193, 195);
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    color: #000000;
+    width: 65%;
+}
+
+.center {
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+header .titulo:hover,
+main .cartao-guardiao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+main .listagem-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .listagem-personagens .card-1 {
+    background: url(../imagens/card-starlord.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-2 {
+    background: url(../imagens/card-gamora.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-3 {
+    background: url(../imagens/card-rocket.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-4 {
+    background: url(../imagens/card-drax.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-5 {
+    background: url(../imagens/card-groot.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-6 {
+    background: url(../imagens/card-nebula.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-7 {
+    background: url(../imagens/card-mantis.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-8 {
+    background: url(../imagens/card-yondu.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-9 {
+    background: url(../imagens/card-kraglin.png);
+    background-size: cover;
+}
+
+main .listagem-personagens .card-10 {
+    background: url(../imagens/card-cosmo.png);
+    background-size: cover;
+}
+
+main .cartao-guardiao {
+    width: 248px;
+    height: 350px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 6px 6px 5px #00000093;
+}
+
+main .cartao-guardiao:hover {
+    box-shadow: 1px 1px 10px white;
+}
+
+.modo-escuro .cartao-guardiao:hover {
+    box-shadow: 1px 1px 10px #000000;
+}
+
+main .cartao-guardiao .informacoes span {
+    font-family: 'Galactic';
+    display: flex;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(34, 193, 195);
+    text-shadow: 1px 5px 5px black;
+}
+
+main .cartao-guardiao .tipos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 135px;
+}
+
+main .cartao-guardiao .tipo {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px black;
+    background-color: #070707af;
+    color: rgb(34, 193, 195);
+}
+
+main .descricao {
+    background-color: rgb(34, 193, 195, 0.75);
+    max-height: 100px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding: 0 6px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.modo-escuro .descricao {
+    background-color: #070707af;
+    color: #f5f5f5;
+}
+
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-lateral ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-lateral .icone {
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-lateral .icone:hover {
+    transform: scale(1.2);
+}
