@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Galactic';
-    src: url(/fonts/GALACTIC-VANGUARDIAN-NCV.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 1980px;
@@ -181,7 +174,7 @@ main .cartao-guardiao:hover {
 }
 
 main .cartao-guardiao .informacoes span {
-    font-family: 'Galactic', Bebas Neue, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     display: flex;
     padding: 4px 10px;
     text-transform: uppercase;
