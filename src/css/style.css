@@ -24,27 +24,27 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 7px;
+    padding: 6px;
     box-shadow: 0 1px;
     backdrop-filter: blur(5px);
     align-items: center;
 }
 
 header .logo {
-    width: 100px;
+    width: 70px;
     transition: 0.2s ease-in-out;
-    margin: 0 100px;
+    margin-left: 75px;
 }
 
 header .titulo .logo-guardians {
-    width: 350px;
+    width: q70px;
     transition: 0.2s ease-in-out;
 }
 
 header .imagem-botao {
     width: 50px;
     transition: 0.2s ease-in-out;
-    margin: 0 100px;
+    margin-left: 75px;
 }
 
 header #botao-alterar-tema {
@@ -226,7 +226,7 @@ main .descricao {
     position: fixed;
     top: 0;
     right: 0;
-    width: 80px;
+    width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
