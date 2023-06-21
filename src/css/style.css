@@ -44,7 +44,7 @@ header .titulo .logo-guardians {
 header .imagem-botao {
     width: 50px;
     transition: 0.2s ease-in-out;
-    margin-left: 75px;
+    margin-right: 75px;
 }
 
 header #botao-alterar-tema {
