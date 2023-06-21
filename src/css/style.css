@@ -181,7 +181,7 @@ main .cartao-guardiao:hover {
 }
 
 main .cartao-guardiao .informacoes span {
-    font-family: 'Galactic';
+    font-family: 'Galactic', Bebas Neue, sans-serif;
     display: flex;
     padding: 4px 10px;
     text-transform: uppercase;
