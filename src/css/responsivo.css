@@ -1,4 +1,9 @@
 @media (max-width: 425px){
+    header .logo,
+    header .imagem-botao {
+        margin: auto;
+    }
+    
     .menu-lateral{
         position: static;
         min-height: auto;
