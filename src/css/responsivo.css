@@ -3,6 +3,10 @@
     header .imagem-botao {
         margin: auto;
     }
+
+    header .imagem-botao {
+        margin-right: 10px;
+    }
     
     .menu-lateral{
         position: static;
